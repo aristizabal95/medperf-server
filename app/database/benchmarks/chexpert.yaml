@@ -1,0 +1,12 @@
+name: MLCommons CheXpert Benchmark
+description: Benchmark for evaluating the AUC of multiple models trained on CheXpert-like datasets
+authors:
+ - {name: "MLCommons Best Practices Working Group"}
+
+preprocessor: chexpert_prep
+
+models:
+ - gaetandi
+ - jfhealthcare
+
+metrics: chexpert_metrics
