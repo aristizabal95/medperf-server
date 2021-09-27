@@ -1,0 +1,5 @@
+sha1: 3b9dc862f3709e85cb9e023036bc83bea474a67e
+url: http://localhost:8000/cubes/xrv_mimic_densenet
+parameters_url: http://localhost:8000/cubes/xrv_mimic_densenet/parameters-file
+additional_files_url: http://localhost:8000/cubes/xrv_mimic_densenet/additional-files
+additional_files_sha1: f9b69398cc4778fa3557d266b6a2bf6926233682

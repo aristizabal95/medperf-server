@@ -1,0 +1,14 @@
+name: MLCommons TorchXRayVision Benchmark
+description: Benchmark for evaluating the AUC and F1 of multiple models implemented in the TorchXRayVision library
+documentation_url: http://localhost:8000/xrv/docs
+owner: testuser
+
+data_preparation: xrv_prep
+
+models:
+ - xrv_chex_densenet
+ - xrv_nih_densenet
+ - xrv_mimic_densenet
+ - xrv_resnet
+
+evaluator: xrv_metrics

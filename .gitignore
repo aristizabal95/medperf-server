@@ -128,5 +128,10 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+app/database/datasets/*
+app/database/results/*
+
+*.tar.gz
+
 .vscode
 .DS_Store

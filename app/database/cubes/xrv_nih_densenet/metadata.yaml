@@ -1,0 +1,5 @@
+sha1: 3b9dc862f3709e85cb9e023036bc83bea474a67e
+url: http://localhost:8000/cubes/xrv_nih_densenet
+parameters_url: http://localhost:8000/cubes/xrv_nih_densenet/parameters-file
+additional_files_url: http://localhost:8000/cubes/xrv_nih_densenet/additional-files
+additional_files_sha1: 2cbba4d29292ca4eadce46070478050503cd9621

@@ -1,0 +1,5 @@
+sha1: 3b9dc862f3709e85cb9e023036bc83bea474a67e
+url: http://localhost:8000/cubes/xrv_chex_densenet
+parameters_url: http://localhost:8000/cubes/xrv_chex_densenet/parameters-file
+additional_files_url: http://localhost:8000/cubes/xrv_chex_densenet/additional-files
+additional_files_sha1: c5c408b5f9ef8b1da748e3b1f2d58b8b3eebf96e

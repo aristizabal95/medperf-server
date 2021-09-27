@@ -1,12 +1,12 @@
 name: MLCommons CheXpert Benchmark
 description: Benchmark for evaluating the AUC of multiple models trained on CheXpert-like datasets
-authors:
- - {name: "MLCommons Best Practices Working Group"}
+documentation_url: http://localhost:8000/xrv/docs
+owner: testuser
 
-preprocessor: chexpert_prep
+data_preparation: chexpert_prep
 
 models:
  - gaetandi
  - jfhealthcare
 
-metrics: chexpert_metrics
+evaluator: chexpert_metrics

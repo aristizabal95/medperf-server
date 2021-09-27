@@ -1,4 +1,4 @@
-name: MLCommons Chexpert Preprocessor
+name: MLCommons TorchXRayVision Preprocessor
 description: MLCommons cube for preprocessing chexpert-like datasets
 authors:
  - {name: "MLCommons Best Practices Working Group"}
@@ -8,7 +8,7 @@ platform:
 
 docker:
   # Image name.
-  image: mlcommons/chexpert-prep:0.0.1
+  image: mlcommons/xrv-prep:0.0.1
   # Docker build context relative to $MLCUBE_ROOT. Default is `build`.
   build_context: "../project"
   # Docker file name within docker build context, default is `Dockerfile`.
@@ -17,7 +17,7 @@ docker:
 tasks:
   prepare:
     parameters:
-      inputs: {data_path: CheXpert-v1.0-small, labels_path: CheXpert-v1.0-small/valid.csv, parameters_file: parameters.yaml}
+      inputs: {data_path: NIH/images/, labels_path: NIH/Data_Entry_2017_v2020.csv, parameters_file: parameters.yaml}
       outputs: {output_path: data/}
   sanity_check:
     parameters:
